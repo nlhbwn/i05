@@ -1,0 +1,24 @@
+[mc.shared.search]
+0=cloud-
+
+[cmdline]
+0=ssh ssh.cloud.nstu.ru
+1=mv main.encrypt encrypt.h
+2=
+
+[input-def]
+0=*
+
+[input2]
+0=main2.c
+
+[Dir Hist New Right Panel]
+0=/home
+1=/root
+
+[Dir Hist New Left Panel]
+0=/home/cloud-admin
+1=/home
+2=/
+3=/etc
+4=/root

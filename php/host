@@ -1,0 +1,15 @@
+<?php
+	$host = 'my_db';
+	$user = 'root';
+	$pass = '1234';
+	$name = 'i05';
+
+	$link = mysqli_conncet($host, $user, $pass, $name);
+
+	$query = 'SELECET * FROM `students`';
+	$result = mysqli_query($link, $query) or die(mysqlu_error($link));
+	while ($row = mysqli_fetch_assoc($result)) {
+		echo $row['NAME'] . '<br>';
+	}
+?>
+	
